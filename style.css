@@ -1,9 +1,12 @@
 body{
     margin-left: 0%;
     margin-right: 0%;
+}
+p{
     font-family: 'Roboto', sans-serif;
 }
 .navigation{
+    font-family: 'Roboto', sans-serif;
     height: 50px;
 }
 .pages{
@@ -11,9 +14,13 @@ body{
     margin-right: 8%;
     font-size: 20px;
 }
+h2, h3{
+    font-family: 'Bebas Neue', cursive;
+}
 .button{
     background-image: linear-gradient(lightsalmon,tomato);
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
     margin-top: 30px;
@@ -47,7 +54,7 @@ body{
 }
 h1{
     font-weight: bold;
-    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     margin-bottom: 2px;
 }
@@ -126,12 +133,6 @@ h3{
     width: 906px;
     height: 225px;
 }
-.quiry a{
-    float: left;
-    padding: 10px 20px;
-    margin-left: 972;
-    background-color: transparent;
-}
 .quiry-text{
     float: left;
     font-size: 54px;
@@ -141,19 +142,22 @@ h3{
     margin-top: 5%;
 }
 .chat{
+    font-size: 18px;
     float: left;
-    margin-left: 250px;
-    margin-top: 90px;
+    margin-left: 350px;
+    margin-top: 85px;
+    height: 20px;
+    width: 100px;
+    padding: 18px 32px;
 }
 footer{
-    height: 400px;
+    height: 300px;
     width: 100%;
     padding-top: 5%;
     text-align: center;
 }
 footer h1{
     color: #363958;
-    ;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
 }
@@ -163,7 +167,7 @@ footer h3{
 .social-media{
     height: 50px;
     margin-top: 20px;
-    margin-left: 630px;
+    margin-left: 42.5%;
 }
 .media-icon{
     float: left;
