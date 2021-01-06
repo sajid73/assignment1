@@ -175,3 +175,50 @@ footer h3{
     height: 40px;
     width: 40px;
 }
+.div-size{
+    height: 200px;
+    width: 100%;
+    margin: 30px 0px;
+}
+.exm-title{
+    float: left;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-left: 200px;
+    box-shadow: 2px 1px 30px rgb(139, 139, 139);
+}
+.exm-description{
+    float: left;
+    height: 180px;
+    width: 800px;
+    text-align: justify;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    margin-left: 100px;
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-bottom: 0%;
+}
+.exm-description h2{
+    margin-top: 0%;
+}
+.title{
+    margin-left: 40%;
+    font-family: 'Big Shoulders Stencil Text';
+    color: royalblue;
+    background-color: sandybrown;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+.exm-title h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.ssc{
+    color: blueviolet;
+}
+.hsc{
+    color: brown;
+}
