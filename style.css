@@ -11,6 +11,15 @@ body{
     margin-right: 8%;
     font-size: 20px;
 }
+.button{
+    background-image: linear-gradient(salmon,tomato);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px 40px;
+    border: 2px solid salmon;
+}
 .list-items{
     list-style-type: none;
     float: left;
@@ -19,9 +28,9 @@ body{
 }
 .half-width{
     float: left;
-    width: 30%;
+    width: 42%;
     padding-left: 2%;
-    margin-left: 6%;
+    margin-left: 5%;
 }
 #highlight{
     color: tomato;
@@ -34,6 +43,7 @@ h1{
     font-weight: bold;
     font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 80px;
+    margin-bottom: 2px;
 }
 p{
     font-size: 18px;
@@ -43,14 +53,21 @@ p{
     width: 500px;
 }
 .intro-text{
-    padding-left: 3%;
+    text-align: justify;
+    padding-left: 3%;   
+    padding-right: 1%;
+    margin-top: 20px;
+    height: 450px;
+}
+.about-me p{
+    padding-right: 6%;
 }
 .project{
-    height: 550px;
+    height: 700px;
     width: 100%;
     text-align: center;
     background-color: #efefef;
-    padding-top: 10%;
+    padding-top: 6%;
 }
 .welcome{
     height: 550px;
@@ -59,16 +76,17 @@ p{
 .about-me{
     height: 550px;
     width: 100%;
+    
 }
 .project-box{
     margin-left: 13.5%;
 }
 .box{
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 5px 5px 20px gray;
     border-radius: 15px;
     width: 27%;
-    height: 350px;
+    height: 400px;
     float: left;
     margin-right: 20px;
 }
@@ -76,11 +94,68 @@ h2{
     font-size: 35px;
 }
 .box-image{
-    height: 65%;
+    height: 200px;
     width: 95%;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    padding-top: 10px;
 }
 h3{
+    padding-top: 5px;
     font-size: 22px;
+}
+.box p{
+    font-size: 15;
+    text-align: justify;
+    padding: 18px;
+    color: rgb(172, 172, 172);
+}
+.quiry{
+    background-image: url("images/inquiry.png");
+    background-size: 906px 225px;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 906px;
+    height: 225px;
+}
+.quiry a{
+    float: left;
+    padding: 10px 20px;
+    margin-left: 972;
+    background-color: transparent;
+}
+.quiry-text{
+    float: left;
+    font-size: 54px;
+    color: white;
+    margin-left: 20px;
+    padding: 4%;
+    margin-top: 5%;
+}
+.chat{
+    float: left;
+    margin-left: 250px;
+    margin-top: 90px;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    padding-top: 5%;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.social-media{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 630px;
+}
+.media-icon{
+    float: left;
+    margin-left: 3%;
+    height: 40px;
+    width: 40px;
 }
